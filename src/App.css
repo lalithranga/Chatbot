@@ -1,0 +1,13 @@
+/* Base layout styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.main-content {
+  margin-top: 64px; /* Adjust based on your header height */
+  flex: 1;
+  padding: 20px;
+}

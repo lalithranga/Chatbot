@@ -1,0 +1,65 @@
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .nav-group-left {
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Ensures links start 30px from the left */
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 4rem;
+  }
+  
+  .nav-links li span {
+    color: #374151;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links li span:hover {
+    color: #4F46E5;
+    background-color: #f3f4f6;
+    border-radius: 4px;
+  }
+  
+  .login-container {
+    margin-right: 200px; /* Ensures login button starts 30px from the right */
+  }
+  
+  .login-btn {
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #4338ca;
+  }
+  
